@@ -31,7 +31,8 @@ I will get back to handle the rest ToDo works after the **ACM UIST submission de
 
 ### Usage
 
-Please install **Unity** (2022.3.10f1+) and **PyCharm** or higher version, then you can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) to execute the program.
+Please install IDEs (include **Unity** 2022.3.10f1+ and **PyCharm**).
+then you can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) to execute the program.
 
 
 🔴 Note: The user guidance will be completed after my recent UIST submission. Before that, you can temporarily refer to my raw source code.
