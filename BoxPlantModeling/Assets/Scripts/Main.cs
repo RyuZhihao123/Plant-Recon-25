@@ -204,7 +204,7 @@ public class Main : MonoBehaviour
         v_count += RefreshFlowerMesh(plant_with_subtree);
 
         Debug.Log("顶点数目: " + (v_count/3).ToString());
-        //plant.construct_progressive_bbox(plant.root);
+        plant.construct_progressive_bbox(plant.root);
         //Debug.Log(plant.root.kits.Count);
         //Debug.Log("Kit网格数目: " + leaf_meshes.Count.ToString());
     }

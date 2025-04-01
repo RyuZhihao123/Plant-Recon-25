@@ -115,7 +115,7 @@ public class Global_Interactive_Mode
 public class Global_Materials
 {
     // Preset Hierarchical boxes.
-    static public bool m_new_box_material_mode = false;  // False:(旧的bbox的绘图模式), True: (新的bbox的绘图模式-视频) 
+    static public bool m_new_box_material_mode = true;  // False:(旧的bbox的绘图模式), True: (新的bbox的绘图模式-视频) 
     static public Material m_mat_box_ActiveNode = null;
     static public Material m_mat_box_Branch = null;
     static public Material m_mat_box_Flower = null;
