@@ -23,23 +23,11 @@ To do:
 
 I will get back to handle the rest ToDo works after the **ACM UIST submission deadline** (Apr. 09).
 
+<img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/1.png" width="500" style="display:block; margin:auto;">
 
 
 ## Hierarchical Boxes-based Plant Reconstruction:
 
-
-
-### Usage
-
-Please install IDEs (include **Unity** 2022.3.10f1+ and **PyCharm**).
-then you can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) to execute the program.
-
-
-🔴 Note: The user guidance will be completed after my recent paper submission. Before that, you can temporarily refer to my raw source code.
-
-will introduce how to customize your data,  get boxes and geometries.
-
-<img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/1.png" width="500" style="display:block; margin:auto;">
 
 ### Code Hierarchy
 
@@ -59,6 +47,18 @@ RootPath: BoxPlantModeling
 ├── Packages 
 ├── ProjectSettings & UserSettings (Here you can change your project setting.)
 ```
+
+
+
+### Usage
+
+Please install IDEs (include **Unity** 2022.3.10f1+ and **PyCharm**).
+then you can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) to execute the program.
+
+
+🔴 Note: The user guidance will be completed after my recent paper submission. Before that, you can temporarily refer to my raw source code.
+
+will introduce how to customize your data,  get boxes and geometries.
 
 
 
