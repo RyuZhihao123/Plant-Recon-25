@@ -60,7 +60,9 @@ then you can directly open the [[code folder]](https://github.com/RyuZhihao123/P
 
 will introduce how to customize your data,  get boxes and geometries.
 
+<img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/3.png" width="900" style="display:block; margin:auto;">
 
+<img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/2.png" width="900" style="display:block; margin:auto;">
 
 
 
