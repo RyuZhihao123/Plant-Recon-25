@@ -753,7 +753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_main_obj: {fileID: 2060163595}
   m_plane_ground: {fileID: 974964283}
-  m_matPureBackground: {fileID: 2100000, guid: 9c54de5c526d06949987caea4cc5ecf4, type: 2}
+  m_matPureBackground: {fileID: 2100000, guid: 4cb82efb739c2304bb6fc530b32f46f1, type: 2}
   m_origin_obj: {fileID: 1124455400}
 --- !u!1 &427371441
 GameObject:
@@ -2316,7 +2316,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9c54de5c526d06949987caea4cc5ecf4, type: 2}
+  - {fileID: 2100000, guid: 4cb82efb739c2304bb6fc530b32f46f1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
