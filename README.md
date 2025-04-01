@@ -34,7 +34,7 @@ I will get back to handle the rest ToDo works after the **ACM UIST submission de
 Please install **Unity** (2022.3.10f1+) and **PyCharm** or higher version, then you can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) to execute the program.
 
 
-**🔴 TODO: The usage guide is not fully completed!!!🔴 I will continue writing the instruction very soon after my UIST submission.** Before that, you can first refer to my source code.
+🔴 Note: The user guidance will be completed after my recent UIST submission. Before that, you can temporarily refer to my raw source code.
 
 will introduce how to customize your data,  get boxes and geometries.
 
