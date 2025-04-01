@@ -17,11 +17,11 @@ Done:
 
 To do:
 - ⏳Online Demo, which will be a WebGL application.
-- ⏳Contrinue writing a detailed instruction.
+- ⏳Write a detailed instruction.
 - ⏳(Optional) Improve the code readability.
 
 
-I will continue preparing the ToDo works after the **ACM UIST submission deadline** (Apr. 09).
+I will get back to handle the rest ToDo works after the **ACM UIST submission deadline** (Apr. 09).
 
 
 
@@ -34,7 +34,7 @@ I will continue preparing the ToDo works after the **ACM UIST submission deadlin
 Please install **Unity** (2022.3.10f1+) and **PyCharm** or higher version, then you can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) to execute the program.
 
 
-**🔴 TODO: THE INSTRUCTION IS NOT FINISHED YET!!!🔴 I will complete the instruction very soon after my UIST submission.**
+**🔴 TODO: The usage guide is not fully completed!!!🔴 I will continue writing the instruction very soon after my UIST submission.** Before that, you can first refer to my source code.
 
 will introduce how to customize your data,  get boxes and geometries.
 
