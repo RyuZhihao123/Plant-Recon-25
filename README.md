@@ -38,7 +38,7 @@ Please install **Unity** (2022.3.10f1+) and **PyCharm** or higher version, then 
 
 will introduce how to customize your data,  get boxes and geometries.
 
-<img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/1.png" width="700" style="display:block; margin:auto;">
+<img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/1.png" width="500" style="display:block; margin:auto;">
 
 ### Code Hierarchy
 
