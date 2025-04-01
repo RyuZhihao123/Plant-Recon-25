@@ -1,5 +1,5 @@
 # BoxPlantReconstruction [CVPR 2025]
-Implementation for our paper in **CVPR 2025**: *"Neural Hierarchical Decomposition for Single Image Plant Modeling. Zhihao Liu et al."*
+Implementation for our paper in CVPR 2025: *"Neural Hierarchical Decomposition for Single Image Plant Modeling. Zhihao Liu et al."*
 
 If you are interested in 3D plant generation, please also see my related GitHub repositories: 
 - [[Point-cloud Tree Reconstruction]](https://github.com/RyuZhihao123/Point-cloud-3D-tree-reconstruction).
