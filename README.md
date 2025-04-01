@@ -1,15 +1,16 @@
-# Plant-Recon-25
+# BoxPlantReconstruction [CVPR 2025]
 Implementation for our paper in **CVPR 2025**: *"Neural Hierarchical Decomposition for Single Image Plant Modeling. Zhihao Liu et al."*
 
-Hey! if you are interested in 3D plant generation, please also see my related GitHub repositories:
- [[Point-cloud-Tree-Reconstruction]]() and [[SVDTree]]().
+If you are interested in 3D plant generation, please also see my related GitHub repositories: 
+- [[Point-cloud Tree Reconstruction]](https://github.com/RyuZhihao123/Point-cloud-3D-tree-reconstruction).
+- [[SVDTree]](https://github.com/RyuZhihao123/SVDTree).
 
 ## Update logs:
 
 Done:
 
 - ✅ 2025/03/09. Created the repository.
-- ✅ 2025/04/01. Released the **[[Source code]]()** for Plant Reconstruction completely.
+- ✅ 2025/04/01. Released the **[[Source code]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling)** for Plant Reconstruction completely.
 
 To do:
 - ⏳Online Demo, which will be a WebGL application.
@@ -27,7 +28,7 @@ I will continue preparing the ToDo works after the **ACM UIST submission deadlin
 
 ### Usage
 
-Please install **Unity** (2022.3.10f1+) and **PyCharm** or higher version, then you can directly open the [[code folder]]() to execute the program.
+Please install **Unity** (2022.3.10f1+) and **PyCharm** or higher version, then you can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) to execute the program.
 
 
 Todo: will introduce how to customize your data,  get boxes and geometries.
