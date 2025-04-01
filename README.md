@@ -5,6 +5,9 @@ If you are interested in 3D plant generation, please also see my related GitHub 
 - [[Point-cloud Tree Reconstruction]](https://github.com/RyuZhihao123/Point-cloud-3D-tree-reconstruction).
 - [[SVDTree]](https://github.com/RyuZhihao123/SVDTree).
 
+
+
+
 ## Update logs:
 
 Done:
@@ -31,11 +34,13 @@ I will continue preparing the ToDo works after the **ACM UIST submission deadlin
 Please install **Unity** (2022.3.10f1+) and **PyCharm** or higher version, then you can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) to execute the program.
 
 
-Todo: will introduce how to customize your data,  get boxes and geometries.
+**🔴 TODO: THE INSTRUCTION IS NOT FINISHED YET!!!🔴 I will complete the instruction very soon after my UIST submission.**
 
+will introduce how to customize your data,  get boxes and geometries.
+
+<img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/1.png" width="700" style="display:block; margin:auto;">
 
 ### Code Hierarchy
-
 
 ```
 RootPath: BoxPlantModeling
