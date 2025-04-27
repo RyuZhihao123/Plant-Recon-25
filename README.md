@@ -17,7 +17,6 @@ Done:
 
 To do:
 - ⏳Online Demo, which will be a WebGL application.
-- ⏳Write a detailed instruction.
 - ⏳(Optional) Improve the code readability.
 
 
