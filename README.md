@@ -58,7 +58,7 @@ then you can directly open the [[code folder]](https://github.com/RyuZhihao123/P
 
 - Please refer to this [latex](https://github.com/RyuZhihao123/Modular-Tree-Modeler-25) document for more explanations about the usage.
 
-- The neural network is heavily based on [StructureNet](https://arxiv.org/abs/1908.00575) and [MolGAN](https://arxiv.org/abs/1805.11973). The procedural 3D plant modeling algorithm is implemented by myself and please refer to this [script](https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/BoxPlantModeling/Assets/Scripts/Plant.cs).
+- The neural network is heavily based on [StructureNet](https://arxiv.org/abs/1908.00575) and [MolGAN](https://arxiv.org/abs/1805.11973). The procedural 3D plant modeling algorithm is designed by myself and please refer to this [script](https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/BoxPlantModeling/Assets/Scripts/Plant.cs).
 
 Here is an [example box](https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Test/test.box) structure inferred by network. You can call the following scripts in **main.cs** to construct the final 3D plant model:
 
