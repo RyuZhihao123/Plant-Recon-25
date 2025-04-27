@@ -46,7 +46,7 @@ RootPath: BoxPlantModeling
 ```
 
 ### Dataset Preparation
-- Please refer to [my another repository](https://github.com/RyuZhihao123/Modular-Tree-Modeler-25) to automatically generate the plant dataset, which can jointly generate and export 3D plant models, segmentations and voxels.
+- Please refer to [my another repository](https://github.com/RyuZhihao123/Modular-Tree-Modeler-25) to automatically generate the plant dataset, which can jointly generate and export 3D plant models, segmentations and boxes.
 
 
 
