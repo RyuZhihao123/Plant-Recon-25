@@ -54,7 +54,7 @@ RootPath: BoxPlantModeling
 ### Usage
 
 - Please install IDEs (include **Unity** 2022.3.10f1+ and **PyCharm**).
-then you can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) to execute the program.
+then you can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) to easily run the program.
 
 
 - Please refer to this [latex](https://github.com/RyuZhihao123/Modular-Tree-Modeler-25) document for more explanations about the usage.
