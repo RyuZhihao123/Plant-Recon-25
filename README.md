@@ -79,7 +79,7 @@ After running the script above, you will see the results in GUI as follows:
 ### Citation
 
 ```
-@inproceedings{li2025neural,
+@inproceedings{liu2025neural,
   title={Neural Hierarchical Decomposition for Single Image Plant Modeling},
   author={Liu, Zhihao and Cheng, Zhanglin and Yokoya, Naoto},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
