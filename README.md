@@ -26,6 +26,14 @@ To do:
 
 ## Hierarchical Boxes-based Plant Reconstruction:
 
+Our project is a successful application of combining the hierarchical learning with procedural modeling for producing practically-usable, realistic 3D plant models.
+- The hierarchical network part is heavily transplanted from [StructureNet](https://arxiv.org/abs/1908.00575), and modified with the backbone of [MolGAN](https://arxiv.org/abs/1805.11973). Please refer to their papers as well for more comprehensive details and reference code. 
+  
+- The shape-guied procedural 3D plant modeling algorithm is designed and implemented entirely by myself. With it, you can easily convert any box structures into final 3D tree models.
+  
+### Dataset Preparation
+- Please refer to [my another repository [Modular-Tree-Modeler]](https://github.com/RyuZhihao123/Modular-Tree-Modeler-25) to automatically generate the plant dataset, which can jointly generate and export 3D plant models, segmentations and boxes.
+ 
 ### Code Hierarchy
 
 ```
@@ -45,22 +53,16 @@ RootPath: BoxPlantModeling
 ├── ProjectSettings & UserSettings (Here you can change your project setting.)
 ```
 
-### Dataset Preparation
-- Please refer to [my another repository](https://github.com/RyuZhihao123/Modular-Tree-Modeler-25) to automatically generate the plant dataset, which can jointly generate and export 3D plant models, segmentations and boxes.
-
-
 
 ### Usage
 
 - Please install IDEs (include **Unity** 2022.3.10f1+ and **PyCharm**).
 then you can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) to easily run the program.
 
+#### Shape-guided Procedural 3D modeling.
+- For this step, please pay attention to this [script](https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/BoxPlantModeling/Assets/Scripts/Plant.cs), which is the main entrance of the entire program.
 
-- Please refer to this [latex](https://github.com/RyuZhihao123/Modular-Tree-Modeler-25) document for more explanations about the usage.
-
-- The neural network is heavily based on [StructureNet](https://arxiv.org/abs/1908.00575) and [MolGAN](https://arxiv.org/abs/1805.11973). The procedural 3D plant modeling algorithm is designed by myself and please refer to this [script](https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/BoxPlantModeling/Assets/Scripts/Plant.cs).
-
-Here is an [example box](https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Test/test.box) structure inferred by network. You can call the following scripts in **main.cs** to construct the final 3D plant model:
+- You can call the following scripts in **main.cs** to construct the final 3D plant model. And here is an [example box](https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Test/test.box) structure that you can use for a quick test.
 
 ```C++
 Plant plant = new Plant();   // Create a plant proxy.
