@@ -27,9 +27,9 @@ To do:
 ## Hierarchical Boxes-based Plant Reconstruction:
 
 Our project is a successful application of combining the hierarchical learning with procedural modeling for producing practically-usable, realistic 3D plant models.
-- The hierarchical network part is heavily transplanted from [StructureNet](https://arxiv.org/abs/1908.00575), and modified with the backbone of [MolGAN](https://arxiv.org/abs/1805.11973). Please refer to their papers as well for more comprehensive details and reference code. 
+- **Part 1: Networks:** The hierarchical network part is heavily transplanted from [StructureNet](https://arxiv.org/abs/1908.00575), and modified with the backbone of [MolGAN](https://arxiv.org/abs/1805.11973). The segmentation network is simply the [Swin-Transformer](https://github.com/microsoft/Swin-Transformer). Thus, please refer to their papers as well for more comprehensive details and reference code. Thus, there are two parts of this project:
   
-- The shape-guied procedural 3D plant modeling algorithm is designed and implemented entirely by myself. With it, you can easily convert any box structures into final 3D tree models.
+- **Part 2: Plant Modeling:** The shape-guied 3D plant modeling algorithm is entirely designed and implemented **by myself**. With it, you can easily convert any box structures into final 3D tree models.
   
 ### Dataset Preparation
 - Please refer to [my another repository [Modular-Tree-Modeler]](https://github.com/RyuZhihao123/Modular-Tree-Modeler-25) to automatically generate the plant dataset, which can jointly generate and export 3D plant models, segmentations and boxes.
