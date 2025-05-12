@@ -83,7 +83,7 @@ The usage of of our network is the basically the same as StructureNet, so please
 This step is the key step to obtain the final 3D plant geometry. If you don't have CG background, it's better to learn the basic usage of Unity beforehand.
 
 - **IDE**: Please first install the IDE **Unity 2022.3.10f1+** before running this program.
-- **Code Download**: You can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) in Unity to execate this program.
+- **Code Download**: You can open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) directly in Unity to execate this program.
 
 <p align="center">
   <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/5.png" width="450" style="display:block; margin:auto;">
