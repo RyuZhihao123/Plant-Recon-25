@@ -59,25 +59,25 @@ The segmentation network is simply the [Swin-Transformer](https://github.com/mic
 
 #### Hierarchical Box Decoder
 We implemented the hierarchical network heavily based on [StructureNet](https://arxiv.org/abs/1908.00575), aftering modifying the backbone as [MolGAN](https://arxiv.org/abs/1805.11973).
-Thus, please also refer to their projects as well to get more comprehensive instructions and reference code.
 
 IFN module:
-```
+``` bash
 # training
 python ./code/train_ifn.py train --data_dir data/ --epochs 300 --batch_size 32
-
-# inference (get latent vector from original image)
+# inference (get the latent vector from original image)
 python ./code/train_ifn.py reference --image_path data/img001.png --ckpt checkpoints/latest_ifn.pth --output_dir tokens/
 ```
 
 DEC module:
-```
+``` bash
 # training
-python your_script.py train --data_dir data/ --epochs 20 --batch_size 32
-
-# inference (get latent vector from original image)
-python your_script.py reference --image_path data/img001.png --ckpt checkpoints/resnet50_epoch10.pth --output_dir tokens/
+python ./train_box.py --exp_name 'box_vae_plant' --category 'Plant' --data_path '../data/partnetdata/plant_hier' --train_dataset 'train.txt' --epochs 180 --model_version 'model_box'
+# inference (get box structures from the latent vector inferred by IFN)
+python ./eval_gen_box.py --exp_name 'plant_vae_chair' --test_dataset 'test.txt' --model_epoch 180
 ```
+
+The usage of of our network is the basically the same as StructureNet, so please also refer to their projects as well to get more comprehensive instructions and reference code.
+
 
 ## ☐ Part-2: Shape-guided 3D Plant Construction 🔥
 
