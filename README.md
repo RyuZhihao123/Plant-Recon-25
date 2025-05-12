@@ -14,7 +14,7 @@ If you are interested in **3D plant reconstruction from real-world data**, pleas
 Done:
 
 - ✅ 2025/03/09. Created the repository.
-- ✅ 2025/04/01. Released the **[[Source code]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling)** for Plant Reconstruction completely.
+- ✅ 2025/04/01. Released the entire **Source Code** for Plant Reconstruction [Code-1](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) and neural nets [code-2](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxStruNN).
 
 To do:
 - ⏳Online Demo, which will be a WebGL application.
