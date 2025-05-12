@@ -20,18 +20,14 @@ To do:
 - ⏳Online Demo, which will be a WebGL application.
 - ⏳(Optional) Improve the code readability.
 
-<<<<<<< HEAD
-=======
-
->>>>>>> b9669ae09d16f0a574b032b62f128c84c80f6bf9
 <p align="center">
   <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/1.png" width="550" style="display:block; margin:auto;">
 </p>
 
 
-## Hierarchical Boxes-based Plant Reconstruction:
+## Hierarchical Boxes-based Plant Reconstruction
 
-## Overview
+### ☐  Overview
 Our project is a successful application of combining the hierarchical learning with procedural modeling for producing practically-usable, realistic 3D plant models.
 Therefore, our project contains two key steps:
 
@@ -39,32 +35,26 @@ Therefore, our project contains two key steps:
   
 - **Part 2: Shape-driven Plant Modeling:** This part is to produce the final 3D plant geometries from the box structures, which is the most difficult step in terms of programming. **The algorithm of this part is entirely designed and implemented by myself.**
 
-## 1. BoxGen Networks
-
-<<<<<<< HEAD
 ### ☐  Dataset Preparation
-=======
-### Plant Dataset Preparation
->>>>>>> b9669ae09d16f0a574b032b62f128c84c80f6bf9
+
 We have developed a series of powerful 3D plant generators in advance, to automatically synthesize the training dataset of diverse plant species.
-The latest version is available at my another repository [[Modular-Tree-Modeler]](https://github.com/RyuZhihao123/Modular-Tree-Modeler-25). 
+The latest version is available at my another repository [[Modular-Tree-Modeler]](https://github.com/RyuZhihao123/Modular-Tree-Modeler-25).
 
-In my dataset generation software, you can easily export the 3D plant geometries into local disk. The following figure shows an example of training pair of segmentation masks and 3D geometries.
-But please note that, we hold its copyright. **Thus, if you intend to use it in your project, please email us for permission.**
-<<<<<<< HEAD
-=======
+Using my dataset generation software, you can easily export your own 3D plant datasets into local disk. The following figure shows an example of training pair of segmentation masks and 3D geometries.
+
 
 <p align="center">
-  <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/4.png" width="350" style="display:block; margin:auto;">
-</p>
->>>>>>> b9669ae09d16f0a574b032b62f128c84c80f6bf9
-
-<p align="center">
-  <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/4.png" width="350" style="display:block; margin:auto;">
+  <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/4.png" width="650" style="display:block; margin:auto;">
 </p>
 
+But please note that, we hold the copyright of this dataset tool. **Thus, if you intend to use it in your project, please email us for permission.**
 
-### Usage
+
+### ☐  Part-1: BoxGen Networks
+
+
+### ☐  (Key) Part-2: BoxGen Networks
+
 
 - Please install IDEs (include **Unity** 2022.3.10f1+ and **PyCharm**).
 then you can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) to easily run the program.
