@@ -20,8 +20,9 @@ To do:
 - ⏳(Optional) Improve the code readability.
 
 
-
-<img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/1.png" width="550" style="display:block; margin:auto;">
+<p align="center">
+  <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/1.png" width="550" style="display:block; margin:auto;">
+</p>
 
 
 ## Hierarchical Boxes-based Plant Reconstruction:
@@ -36,10 +37,14 @@ Therefore, our project contains two key steps:
 
 ## 1. BoxGen Networks
 
-### # Dataset Preparation
-Please refer to [my another repository [Modular-Tree-Modeler]](https://github.com/RyuZhihao123/Modular-Tree-Modeler-25) to automatically generate the plant dataset, which can jointly generate and export 3D plant models, segmentations and boxes.
+### Dataset Preparation
+We have developed a very powerful 3D plant generator in advance used for automatically synthesizing the training dataset of diverse plant species.
 
-Here is a short video showing the basic information of my dataset generation tool. Also please refer to the corresponding GitHub page to know its detailed usage.
+Our dataset tool is available at my another repository [[Modular-Tree-Modeler]](https://github.com/RyuZhihao123/Modular-Tree-Modeler-25). The following figure shows an example of training pair of segmentation masks and 3D geometries.
+
+<p align="center">
+  <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/4.png" width="350" style="display:block; margin:auto;">
+</p>
 
 ### Dataset Preparation
  
