@@ -27,7 +27,7 @@ To do:
 
 ## Hierarchical Boxes-based Plant Reconstruction
 
-### ☐  Overview
+## ☐  Overview
 Our project is a successful application of combining the hierarchical learning with procedural modeling for producing practically-usable, realistic 3D plant models.
 Therefore, our project contains two key steps:
 
@@ -35,13 +35,12 @@ Therefore, our project contains two key steps:
   
 - **Part 2: Shape-driven Plant Modeling:** This part is to produce the final 3D plant geometries from the box structures, which is the most difficult step in terms of programming. **The algorithm of this part is entirely designed and implemented by myself.**
 
-### ☐  Dataset Preparation
+## ☐  Dataset Preparation
 
 We have developed a series of powerful 3D plant generators in advance, to automatically synthesize the training dataset of diverse plant species.
 The latest version is available at my another repository [[Modular-Tree-Modeler]](https://github.com/RyuZhihao123/Modular-Tree-Modeler-25).
 
 Using my dataset generation software, you can easily export your own 3D plant datasets into local disk. The following figure shows an example of training pair of segmentation masks and 3D geometries.
-
 
 <p align="center">
   <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/4.png" width="650" style="display:block; margin:auto;">
@@ -50,13 +49,39 @@ Using my dataset generation software, you can easily export your own 3D plant da
 But please note that, we hold the copyright of this dataset tool. **Thus, if you intend to use it in your project, please email us for permission.**
 
 
-### ☐  Part-1: BoxGen Networks
+## ☐  Part-1: BoxGen Networks
 
+Our project includes multiple network modules for different inference steps.
 
-### ☐  (Key) Part-2: BoxGen Networks
+#### Segmentation
 
+The segmentation network is simply the [Swin-Transformer](https://github.com/microsoft/Swin-Transformer). 
 
-- Please install IDEs (include **Unity** 2022.3.10f1+ and **PyCharm**).
+#### Hierarchical Box Decoder
+We implemented the hierarchical network heavily based on [StructureNet](https://arxiv.org/abs/1908.00575), aftering modifying the backbone as [MolGAN](https://arxiv.org/abs/1805.11973).
+Thus, please also refer to their projects as well to get more comprehensive instructions and reference code.
+
+IFN module:
+```
+# training
+python your_script.py train --data_dir data/ --epochs 20 --batch_size 32
+
+# inference (get latent vector from original image)
+python your_script.py reference --image_path data/img001.png --ckpt checkpoints/resnet50_epoch10.pth --output_dir tokens/
+```
+
+DEC module:
+```
+# training
+python your_script.py train --data_dir data/ --epochs 20 --batch_size 32
+
+# inference (get latent vector from original image)
+python your_script.py reference --image_path data/img001.png --ckpt checkpoints/resnet50_epoch10.pth --output_dir tokens/
+```
+
+## ☐ Part-2: BoxGen Networks 🔥
+
+Please install IDEs (include **Unity** 2022.3.10f1+ and **PyCharm**).
 then you can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) to easily run the program.
 
 #### Shape-guided Procedural 3D modeling.
