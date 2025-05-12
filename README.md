@@ -1,4 +1,4 @@
-# BoxPlantReconstruction [CVPR 2025]
+# BoxPlantReconstruction
 
 Codebase of our paper in CVPR 2025: *"Neural Hierarchical Decomposition for Single Image Plant Modeling. Zhihao Liu et al."*
 
