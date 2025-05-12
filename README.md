@@ -26,15 +26,34 @@ To do:
 
 ## Hierarchical Boxes-based Plant Reconstruction:
 
+## Overview
 Our project is a successful application of combining the hierarchical learning with procedural modeling for producing practically-usable, realistic 3D plant models.
-- **Part 1: Networks:** The hierarchical network part is heavily transplanted from [StructureNet](https://arxiv.org/abs/1908.00575), and modified with the backbone of [MolGAN](https://arxiv.org/abs/1805.11973). The segmentation network is simply the [Swin-Transformer](https://github.com/microsoft/Swin-Transformer). Thus, please refer to their papers as well for more comprehensive details and reference code. Thus, there are two parts of this project:
+Therefore, our project contains two key steps:
+
+- **Part 1: BoxGen Networks:** The networks are used to produce the hierarchical boxes of plant models.
   
-- **Part 2: Plant Modeling:** The shape-guied 3D plant modeling algorithm is entirely designed and implemented **by myself**. With it, you can easily convert any box structures into final 3D tree models.
-  
+- **Part 2: Shape-driven Plant Modeling:** This part is to produce the final 3D plant geometries from the box structures, which is the most difficult step in terms of programming. **The algorithm of this part is entirely designed and implemented by myself.**
+
+## 1. BoxGen Networks
+
+### # Dataset Preparation
+Please refer to [my another repository [Modular-Tree-Modeler]](https://github.com/RyuZhihao123/Modular-Tree-Modeler-25) to automatically generate the plant dataset, which can jointly generate and export 3D plant models, segmentations and boxes.
+
+Here is a short video showing the basic information of my dataset generation tool. Also please refer to the corresponding GitHub page to know its detailed usage.
+
 ### Dataset Preparation
-- Please refer to [my another repository [Modular-Tree-Modeler]](https://github.com/RyuZhihao123/Modular-Tree-Modeler-25) to automatically generate the plant dataset, which can jointly generate and export 3D plant models, segmentations and boxes.
  
-### Code Hierarchy
+The hierarchical network part is heavily transplanted from [StructureNet](https://arxiv.org/abs/1908.00575), and modified with the backbone of [MolGAN](https://arxiv.org/abs/1805.11973). The segmentation network is simply the [Swin-Transformer](https://github.com/microsoft/Swin-Transformer). Thus, please refer to their papers as well for more comprehensive details and reference code. Thus, there are two parts of this project:
+
+
+### Usage
+
+- Please install IDEs (include **Unity** 2022.3.10f1+ and **PyCharm**).
+then you can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) to easily run the program.
+
+#### Shape-guided Procedural 3D modeling.
+
+#### Code Hierarchy
 
 ```
 RootPath: BoxPlantModeling
@@ -53,16 +72,10 @@ RootPath: BoxPlantModeling
 ├── ProjectSettings & UserSettings (Here you can change your project setting.)
 ```
 
-
-### Usage
-
-- Please install IDEs (include **Unity** 2022.3.10f1+ and **PyCharm**).
-then you can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) to easily run the program.
-
-#### Shape-guided Procedural 3D modeling.
 - For this step, please pay attention to this [script](https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/BoxPlantModeling/Assets/Scripts/Plant.cs), which is the main entrance of the entire program.
 
 - You can call the following scripts in **main.cs** to construct the final 3D plant model. And here is an [example box](https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Test/test.box) structure that you can use for a quick test.
+
 
 ```C++
 Plant plant = new Plant();   // Create a plant proxy.
