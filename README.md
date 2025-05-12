@@ -79,7 +79,11 @@ python your_script.py train --data_dir data/ --epochs 20 --batch_size 32
 python your_script.py reference --image_path data/img001.png --ckpt checkpoints/resnet50_epoch10.pth --output_dir tokens/
 ```
 
-## ☐ Part-2: BoxGen Networks 🔥
+## ☐ Part-2: Shape-guided 3D Plant Construction 🔥
+
+<p align="center">
+  <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/5.png" width="650" style="display:block; margin:auto;">
+</p>
 
 Please install IDEs (include **Unity** 2022.3.10f1+ and **PyCharm**).
 then you can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) to easily run the program.
