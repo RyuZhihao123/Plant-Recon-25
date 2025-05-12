@@ -53,12 +53,11 @@ But please note that, we hold the copyright of this dataset tool. **Thus, if you
 
 Our project includes multiple network modules for different inference steps.
 
-#### Segmentation
+**Segmentation**: The segmentation network is simply the [Swin-Transformer](https://github.com/microsoft/Swin-Transformer). 
 
-The segmentation network is simply the [Swin-Transformer](https://github.com/microsoft/Swin-Transformer). 
-
-#### Hierarchical Box Decoder
-We implemented the hierarchical network heavily based on [StructureNet](https://arxiv.org/abs/1908.00575), aftering modifying the backbone as [MolGAN](https://arxiv.org/abs/1805.11973).
+**Hierarchical Box Decoder**: 
+- We implemented the hierarchical network heavily based on [StructureNet](https://arxiv.org/abs/1908.00575), aftering modifying the backbone as [MolGAN](https://arxiv.org/abs/1805.11973).
+- **Code Download:** Please refer to this [folder](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxStruNN) for the source code of this part.
 
 IFN module:
 ``` bash
@@ -79,16 +78,17 @@ python ./eval_gen_box.py --exp_name 'plant_vae_chair' --test_dataset 'test.txt' 
 The usage of of our network is the basically the same as StructureNet, so please also refer to their projects as well to get more comprehensive instructions and reference code.
 
 
-## ☐ Part-2: Shape-guided 3D Plant Construction 🔥
+## ☐ Part-2: Shape-guided 3D Plant Construction 🔥🔥
+
+This step is the key step to obtain the final 3D plant geometry. If you don't have CG background, it's better to learn the basic usage of Unity beforehand.
+
+- **IDE**: Please first install the IDE **Unity 2022.3.10f1+** before running this program.
+- **Code Download**: You can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) in Unity to execate this program.
 
 <p align="center">
-  <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/5.png" width="650" style="display:block; margin:auto;">
+  <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/5.png" width="450" style="display:block; margin:auto;">
 </p>
 
-Please install IDEs (include **Unity** 2022.3.10f1+ and **PyCharm**).
-then you can directly open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) to easily run the program.
-
-#### Shape-guided Procedural 3D modeling.
 
 #### Code Hierarchy
 
@@ -108,6 +108,7 @@ RootPath: BoxPlantModeling
 ├── Packages 
 ├── ProjectSettings & UserSettings (Here you can change your project setting.)
 ```
+#### Usage:
 
 - For this step, please pay attention to this [script](https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/BoxPlantModeling/Assets/Scripts/Plant.cs), which is the main entrance of the entire program.
 
