@@ -38,11 +38,11 @@ Therefore, our project contains two key steps:
 ## 1. BoxGen Networks
 
 ### Plant Dataset Preparation
-We have developed a very powerful 3D plant generator in advance, to automatically synthesize the training dataset of diverse plant species.
-It is available at my another repository [[Modular-Tree-Modeler]](https://github.com/RyuZhihao123/Modular-Tree-Modeler-25). 
+We have developed a series of powerful 3D plant generators in advance, to automatically synthesize the training dataset of diverse plant species.
+The latest version is available at my another repository [[Modular-Tree-Modeler]](https://github.com/RyuZhihao123/Modular-Tree-Modeler-25). 
 
 In my dataset generation software, you can easily export the 3D plant geometries into local disk. The following figure shows an example of training pair of segmentation masks and 3D geometries.
-But please note that, we hold the copyright of this dataset generation tool. **If you intend to use it in your project, please email us for permission.**
+But please note that, we hold its copyright. **Thus, if you intend to use it in your project, please email us for permission.**
 
 <p align="center">
   <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/4.png" width="350" style="display:block; margin:auto;">
