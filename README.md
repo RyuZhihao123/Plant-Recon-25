@@ -28,7 +28,7 @@ To do:
 ## Hierarchical Boxes-based Plant Reconstruction
 
 ## ☐  Overview
-Our project is a successful application of combining the hierarchical learning with procedural modeling for producing practically-usable, realistic 3D plant models.
+Our project is a premilinary exploration of combining the hierarchical learning with shape-driven procedural modeling for producing practically-usable, realistic 3D plant models.
 Therefore, our project contains two key steps:
 
 - **Part 1: BoxGen Networks:** The networks are used to produce the hierarchical boxes of plant models.
