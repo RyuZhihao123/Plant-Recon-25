@@ -1,0 +1,12 @@
+1 plant subcomponents
+2 plant/branchnode subcomponents
+3 plant/branchnode_end leaf
+4 plant/branchnode/branchnode_end leaf
+5 plant/branchnode/branchnode subcomponents
+6 plant/branchnode/branchnode/branchnode_end leaf
+7 plant/branchnode/branchnode/branchnode subcomponents
+8 plant/branchnode/branchnode/branchnode/branchnode_end leaf
+9 plant/branchnode/branchnode/branchnode/branchnode subcomponents
+10 plant/branchnode/branchnode/branchnode/branchnode/branchnode_end leaf
+11 plant/branchnode/branchnode/branchnode/branchnode/branchnode subcomponents
+12 plant/branchnode/branchnode/branchnode/branchnode/branchnode/branchnode_end leaf

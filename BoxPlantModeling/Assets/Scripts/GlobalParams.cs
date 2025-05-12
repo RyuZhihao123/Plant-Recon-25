@@ -180,7 +180,7 @@ public class GlobalSketchSetting
 
 
     public static float p_leaf_density = 0.35f;    // Ò¶Æ¬ÃÜ¶È
-    public static float p_leaf_size = 0.13f;       // Ò¶Æ¬³ß´ç
+    public static float p_leaf_size = 0.08f;       // Ò¶Æ¬³ß´ç
     public static bool p_leaf_is_crossed = false;   // Ê÷Ò¶ÊÇ·ñÊÇ½»²æÄ£Ê½
 
     public static float p_leaf_gravity_factor = 0f;

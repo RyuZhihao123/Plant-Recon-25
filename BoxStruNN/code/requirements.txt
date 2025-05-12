@@ -1,0 +1,12 @@
+numpy
+scipy
+sklearn
+matplotlib
+progressbar2
+tensorboardX
+trimesh
+torch>=1.1.0
+torchvision
+ninja
+shapely
+jupyter
