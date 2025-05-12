@@ -14,7 +14,7 @@ If you are interested in **3D plant reconstruction from real-world data**, pleas
 Done:
 
 - ✅ 2025/03/09. Created the repository.
-- ✅ 2025/04/01. Released the entire **Source Code** for Plant Reconstruction [Code-1](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) and neural nets [code-2](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxStruNN).
+- ✅ 2025/04/01. Released the entire **Source Code** for [[3D Plant Reconstruction]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) and [[Neural Nets]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxStruNN).
 
 To do:
 - ⏳Online Demo, which will be a WebGL application.
@@ -64,10 +64,10 @@ Thus, please also refer to their projects as well to get more comprehensive inst
 IFN module:
 ```
 # training
-python your_script.py train --data_dir data/ --epochs 20 --batch_size 32
+python ./code/train_ifn.py train --data_dir data/ --epochs 300 --batch_size 32
 
 # inference (get latent vector from original image)
-python your_script.py reference --image_path data/img001.png --ckpt checkpoints/resnet50_epoch10.pth --output_dir tokens/
+python ./code/train_ifn.py reference --image_path data/img001.png --ckpt checkpoints/latest_ifn.pth --output_dir tokens/
 ```
 
 DEC module:
