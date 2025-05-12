@@ -35,21 +35,21 @@ Therefore, our project contains two key steps:
   
 - **Part 2: Shape-driven Plant Modeling:** This part is to produce the final 3D plant geometries from the box structures, which is the most difficult step in terms of programming. **The algorithm of this part is entirely designed and implemented by myself.**
 
-## ☐  Dataset Preparation
+## ☐  Our Dataset Generation Tool.
 
-We have developed a series of powerful 3D plant generators in advance, to automatically synthesize the training dataset of diverse plant species.
+**Download Link:** We have developed a series of powerful 3D plant generators in advance, to automatically synthesize the training dataset of diverse plant species.
 The latest version is available at my another repository [[Modular-Tree-Modeler]](https://github.com/RyuZhihao123/Modular-Tree-Modeler-25).
 
-Using my dataset generation software, you can easily export your own 3D plant datasets into local disk. The following figure shows an example of training pair of segmentation masks and 3D geometries.
+Using my dataset generation software, you can directly export your own 3D plant datasets into local disk for any personal use. The following figure shows an example of training pair of segmentation masks and 3D geometries.
 
 <p align="center">
   <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/4.png" width="650" style="display:block; margin:auto;">
 </p>
 
-But please note that, we hold the copyright of this dataset tool. **Thus, if you intend to use it in your project, please email us for permission.**
+But please note that, we hold the copyright of this dataset tool. **Thus, if you intend to use it in your presearch roject, please email us for permission.**
 
 
-## ☐  Part-1: BoxGen Networks
+## ☐  Part-1: BoxGen Networks.
 
 Our project includes multiple network modules for different inference steps.
 
