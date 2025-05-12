@@ -56,7 +56,7 @@ Our project includes multiple network modules for different inference steps.
 **Segmentation**: The segmentation network is simply the [Swin-Transformer](https://github.com/microsoft/Swin-Transformer). 
 
 **Hierarchical Box Decoder**: 
-- We implemented the hierarchical network heavily based on [StructureNet](https://arxiv.org/abs/1908.00575), aftering modifying the backbone as [MolGAN](https://arxiv.org/abs/1805.11973).
+- We implemented the hierarchical network heavily based on [StructureNet](https://arxiv.org/abs/1908.00575), with modifying backbone into [MolGAN](https://arxiv.org/abs/1805.11973) style.
 - **Code Download:** Please refer to this [folder](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxStruNN) for the source code of this part.
 
 IFN module:
