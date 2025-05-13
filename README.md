@@ -42,7 +42,7 @@ The latest version is available at my another repository [[Modular-Tree-Modeler]
 
 Using my dataset generation software, you can directly export your own 3D plant datasets into local disk for any personal use. The following figure shows an example of training pair of segmentation masks and 3D geometries.
 
-🤓 This dataset tool is more than this! Please give it a change and have a try. (No doubt, this is a advertisement...)
+🤓 This dataset tool is more than this! Please give it a change and have a try. (No doubt, this is an advertisement...)
 
 <p align="center">
   <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/4.png" width="650" style="display:block; margin:auto;">
@@ -84,9 +84,6 @@ The usage of of our network is the basically the same as StructureNet, so please
 
 This step is the key step to obtain the final 3D plant geometry. If you don't have CG background, it's better to learn the basic usage of Unity beforehand.
 
-- **IDE**: Please first install the IDE **Unity 2022.3.10f1+** before running this program.
-- **Code Download**: You can open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) directly in Unity to execate this program.
-
 <p align="center">
   <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/5.png" width="450" style="display:block; margin:auto;">
 </p>
@@ -112,6 +109,9 @@ RootPath: BoxPlantModeling
 ```
 #### Usage:
 
+- **IDE**: Please first install the IDE **Unity 2022.3.10f1+** before running this program.
+- **Code Download**: You can open the [[code folder]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) directly in Unity to execate this program.
+- 
 - For this step, please pay attention to this [script](https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/BoxPlantModeling/Assets/Scripts/Plant.cs), which is the main entrance of the entire program.
 
 - You can call the following scripts in **main.cs** to construct the final 3D plant model. And here is an [example box](https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Test/test.box) structure that you can use for a quick test.
