@@ -42,7 +42,7 @@ The latest version is available at my another repository [[Modular-Tree-Modeler]
 
 Using my dataset generation software, you can directly export your own 3D plant datasets into local disk for any personal use. The following figure shows an example of training pair of segmentation masks and 3D geometries.
 
-🤓 This dataset tool is more than this! Please give it a change and have a try. (No doubt, this is an advertisement...)
+🤓 This dataset tool is more than this! Please give it a change and have a try. (**No doubt, this is an advertisement...**)
 
 <p align="center">
   <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/4.png" width="650" style="display:block; margin:auto;">
