@@ -48,7 +48,7 @@ Using my dataset generation software, you can directly export your own 3D plant 
   <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/4.png" width="650" style="display:block; margin:auto;">
 </p>
 
-But please note that, we hold the copyright of this dataset tool. **Thus, if you intend to use it in your research project, please email us for permission.**
+But please note that, we hold the copyright of this dataset tool. **Thus, if you intend to use it in your research project, please notify us by email.**
 
 
 ## ☐  Part-1: BoxGen Networks.
