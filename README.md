@@ -78,6 +78,7 @@ python ./eval_gen_box.py --exp_name 'plant_vae_chair' --test_dataset 'test.txt' 
 
 The usage of of our network is the basically the same as StructureNet, so please also refer to their projects as well to get more comprehensive instructions and reference code.
 
+Please visit [this link]() to download the training weights of the networks.
 
 ## ☐ Part-2: Shape-guided 3D Plant Construction 🔥🔥
 
