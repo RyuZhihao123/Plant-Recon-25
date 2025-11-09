@@ -8,6 +8,11 @@ Codebase of our paper in CVPR 2025: *"Neural Hierarchical Decomposition for Sing
 - [[SVDTree]](https://github.com/RyuZhihao123/SVDTree): a new technique for reconstructing plants using diffusion priors.
 
 
+## In-program Decomposition Demo:
+
+https://github.com/user-attachments/assets/4840dda8-4947-4145-ac9f-1f457877358a
+
+
 
 ## Update logs:
 
