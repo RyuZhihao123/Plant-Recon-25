@@ -27,7 +27,7 @@ To do:
 - ⏳(Optional) Improve the code readability.
 
 <p align="center">
-  <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/Figures/1.png" width="550" style="display:block; margin:auto;">
+  <img src="https://github.com/RyuZhihao123/Plant-Recon-25/blob/main/6.png" width="750" style="display:block; margin:auto;">
 </p>
 
 
