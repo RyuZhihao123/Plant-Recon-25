@@ -14,10 +14,9 @@ Codebase of our paper in CVPR 2025: *"Neural Hierarchical Decomposition for Sing
 Done:
 
 - ✅ 2025/03/09. Created the repository.
-- ✅ 2025/04/01. Released the entire **Source Code** for [[3D Plant Reconstruction]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) and [[Neural Nets]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxStruNN).
+- ✅ 2025/04/01. Released the **entire Source Code** for [[3D Plant Reconstruction]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxPlantModeling) and [[Neural Nets]](https://github.com/RyuZhihao123/Plant-Recon-25/tree/main/BoxStruNN).
 
 To do:
-- ⏳Online Demo, which will be a WebGL application.
 - ⏳(Optional) Improve the code readability.
 
 <p align="center">
