@@ -9,7 +9,7 @@ Codebase of our paper in CVPR 2025: *"Neural Hierarchical Decomposition for Sing
 
 ---
 
-After finishing the configuration, you would be able to operate the program like this (Press Key F6/F7 to proceed/resume the decomposition).
+After finishing the configuration, you would be able to operate the program like this video (Press Key **F6/F7** to proceed/resume the decomposition).
 
 https://github.com/user-attachments/assets/2dbc0b32-a2aa-4b31-bb29-8b16d0095e9b
 
