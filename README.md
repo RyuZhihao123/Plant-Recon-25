@@ -10,7 +10,10 @@ Codebase of our paper in CVPR 2025: *"Neural Hierarchical Decomposition for Sing
 
 ## In-program Decomposition Demo:
 
-https://github.com/user-attachments/assets/4840dda8-4947-4145-ac9f-1f457877358a
+
+
+https://github.com/user-attachments/assets/2dbc0b32-a2aa-4b31-bb29-8b16d0095e9b
+
 
 
 
