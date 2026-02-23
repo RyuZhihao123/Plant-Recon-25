@@ -54,7 +54,7 @@ public class Main : MonoBehaviour
 
         //JsonDatasetGenerator.SaveJson(plant, "C:/Users/liuzh/Desktop/aaaa.json");
 
-        UTIL.LoadPlant(plant, "E:/MyProjects/2024_PlantBox/Github/ver2/Plant-Recon-25/test/2026_02_12_03_42_11_984.box");  // load the box structure.
+        UTIL.LoadPlant(plant, "E:/MyProjects/2024_PlantBox/Github/ver2/Plant-Recon-25/test/test.box");  // load the box structure.
 
         this.ConstructPlantGameObjects();  // 构建整个gameobject
 

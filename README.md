@@ -4,7 +4,7 @@ Codebase of our paper in CVPR 2025: *"Neural Hierarchical Decomposition for Sing
 
 🔥 If you're interested in **3D Plant Reconstruction from Real Data**, please also see my relavent GitHub repositories: 
 
-- 🌳 [[Point-cloud 3D Tree Reconstruction]](https://github.com/RyuZhihao123/Point-cloud-3D-tree-reconstruction): a free software for reconstructing plants from point cloud scans (My proud work!).
+- 🌳 [[Point-cloud 3D Tree Reconstruction]](https://github.com/RyuZhihao123/Point-cloud-3D-tree-reconstruction): a free software for reconstructing plants from 3D point clouds.
 
 ---
 
