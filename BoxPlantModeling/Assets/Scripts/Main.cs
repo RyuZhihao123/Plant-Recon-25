@@ -43,7 +43,7 @@ public class Main : MonoBehaviour
         Global_Materials.InitializeMats();
 
         // [1] 加载+解析L-system文件 
-        parser.ParseFile("C:/Users/liuzh/Desktop/l_systems/论文用.txt");  //(l4)
+        parser.ParseFile("C:/Users/liuzh/Desktop/l_systems/简化版本程序用文法.txt");  //(l4)  简化版本时，这句可注释掉
 
         //JsonDatasetGenerator.GenerateJsonDataset(dataNum: 250, iter: 4, parser, isConsiderLeaf: false);  // 构造StructureNet的训练数据集
 
@@ -53,6 +53,8 @@ public class Main : MonoBehaviour
         }
 
         //JsonDatasetGenerator.SaveJson(plant, "C:/Users/liuzh/Desktop/aaaa.json");
+
+        UTIL.LoadPlant(plant, "E:/MyProjects/2024_PlantBox/Github/ver2/Plant-Recon-25/test/test.box");  // load the box structure.
 
         this.ConstructPlantGameObjects();  // 构建整个gameobject
 

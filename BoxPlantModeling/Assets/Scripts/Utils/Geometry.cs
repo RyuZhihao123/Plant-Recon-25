@@ -1197,7 +1197,7 @@ public class MinBoundingBox
 
             bbox.len1 = leaf.h;
             bbox.len2 = leaf.w * textureRatioX;
-            bbox.len3 = leaf.w * textureRatioX;
+            bbox.len3 = leaf.t * textureRatioX;
 
             bbox.center = dir * leaf.h / 2.0f + leaf.a;
         }

@@ -46,6 +46,7 @@ public class Leaf: Kit
 {
     public float w = GlobalParams.p_leaf_witdth;
     public float h = GlobalParams.p_leaf_height;
+    public float t = GlobalParams.p_leaf_witdth;
     public float horAng = GlobalParams.p_leaf_horBend_Ang;
     public float verAng = GlobalParams.p_leaf_verBend_Ang;
 
@@ -57,15 +58,16 @@ public class Leaf: Kit
     public bool isSelected = false;
 
     public Leaf() { }
-    public Leaf(Vector3 a, Vector3 dir, float w, float h, float hAng, float vAng)
+    public Leaf(Vector3 a, Vector3 dir, float w, float h, float hAng, float vAng, float t = 0.2f)
     { 
-        this.a = a; this.dir = dir; this.w = w; this.h = h; this.horAng = hAng; this.verAng = vAng;
+        this.a = a; this.dir = dir; this.w = w; this.h = h; this.horAng = hAng; this.verAng = vAng; this.t = t;
+
     }
-    public Leaf copy() { return new Leaf(a, dir, w, h, horAng, verAng); }
+    public Leaf copy() { return new Leaf(a, dir, w, h, horAng, verAng, t); }
 
     public Leaf deepCopy()
     {
-        Leaf lf = new Leaf(a, dir, w, h, horAng, verAng);
+        Leaf lf = new Leaf(a, dir, w, h, horAng, verAng, t);
 
         lf.rotation = rotation;
         lf.isCrossShape = isCrossShape;

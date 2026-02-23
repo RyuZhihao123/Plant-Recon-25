@@ -45,12 +45,12 @@ public class GlobalParams
 
     //[2] GrammarParser类：
     // 默认旋转参数 (+-\/&^)
-    public static float p_angX = 25.0f;   // x方向旋转角度
-    public static float p_angY = 25.0f;   // y方向旋转角度
-    public static float p_angZ = 25.0f;   // z方向旋转角度
-    public static float p_angX_factor = 1.0f;  // 迭代缩放系数-x方向旋转角度
-    public static float p_angY_factor = 1.0f;  // 迭代缩放系数-y方向旋转角度
-    public static float p_angZ_factor = 1.0f;  // 迭代缩放系数-z方向旋转角度
+    public static float p_angX = 25.0f;   // x方向旋转角度 param twig rotation x
+    public static float p_angY = 25.0f;   // y方向旋转角度 param twig rotation y
+    public static float p_angZ = 25.0f;   // z方向旋转角度 param twig rotation z
+    public static float p_angX_factor = 1.0f;  // 迭代缩放系数-x方向旋转角度 param twig rotation scale x
+    public static float p_angY_factor = 1.0f;  // 迭代缩放系数-y方向旋转角度 param twig rotation scale y
+    public static float p_angZ_factor = 1.0f;  // 迭代缩放系数-z方向旋转角度 param twig rotation scale z
 
 
     // 默认枝干参数 (F)
@@ -71,15 +71,15 @@ public class GlobalPath
     static public string p_flower_path = "Assets/Resources/Flowers/";
     static public string p_seg_leaf_color_file = "Assets/Scripts/PythonScripts/leaf_color.txt";  // leaf的颜色文件
 
-    static public string p_catch_path = "C:/Users/liuzh/Desktop/cache/";   // 默认的图结构的存储路径
-    static public string p_GAE_graph_path = "C:/Users/liuzh/Desktop/dataset_plant_graph/"; // 用于训练GAE的植物路径
+    static public string p_catch_path = "C:/Users/liuzh/Desktop/1/";   // 默认的图结构的存储路径   cache_path.
+    static public string p_GAE_graph_path = "C:/Users/liuzh/Desktop/dataset_plant_graph/"; // 用于训练GAE的植物路径 path to dataset.
 
     // 用于训练StructureNet的json文件的路径
     static public string p_json_dataset_path = "D:/Projects/PlantAssembly/StruBoxNet/data/partnetdata/plant_hier/";
 
     // Python.exe的路径(UnityPlant虚拟环境)
-    static public string p_python_exe = "D:/IDE/Anaconda/envs/UnityPlant/python.exe";
-    static public string p_python_server_script = "C:/Users/liuzh/PycharmProjects/PlantAssemblyPythonLib/Plant_Server.py";
+    static public string p_python_exe = "D:/Program Files/Python/python.exe";   // please replace this with your own Python.exe Path.
+    static public string p_python_server_script = "E:/MyProjects/2024_PlantBox/PlantAssemblyPythonLib/Plant_Server.py";
 }
 
 public class Interactive_OP
@@ -88,7 +88,7 @@ public class Interactive_OP
     static public string p_current_leaf_tex_name;
     static public string p_current_flower_name;
 
-    static public bool p_isMoveSubTree;  // 是否移动子树
+    static public bool p_isMoveSubTree;
 
     static public float p_node_move_offset;
     static public float p_node_rotate_angle;
