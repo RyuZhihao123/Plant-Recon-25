@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Internode
+public class Internode  // branch class
 {
     // a->b
     public Vector3 a = new Vector3();

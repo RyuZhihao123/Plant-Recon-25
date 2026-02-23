@@ -43,7 +43,7 @@ public class GlobalParams
     // 花朵相关
     public static float p_flower_scale = 0.3f; // 花朵的缩放系数
 
-    //[2] GrammarParser类：
+    //[2] GrammarParser类（only used when loading external L-system rule files, if not specified, these attributes are not used）：
     // 默认旋转参数 (+-\/&^)
     public static float p_angX = 25.0f;   // x方向旋转角度 param twig rotation x
     public static float p_angY = 25.0f;   // y方向旋转角度 param twig rotation y
