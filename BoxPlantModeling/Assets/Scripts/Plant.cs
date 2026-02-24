@@ -46,7 +46,7 @@ public class Leaf: Kit
 {
     public float w = GlobalParams.p_leaf_witdth;
     public float h = GlobalParams.p_leaf_height;
-    public float t = GlobalParams.p_leaf_witdth;
+    public float t = GlobalParams.p_leaf_tawidth;
     public float horAng = GlobalParams.p_leaf_horBend_Ang;
     public float verAng = GlobalParams.p_leaf_verBend_Ang;
 

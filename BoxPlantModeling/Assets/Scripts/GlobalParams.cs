@@ -38,6 +38,7 @@ public class GlobalParams
     // 树叶相关
     public static float p_leaf_witdth = 0.2f;  // 树叶宽度
     public static float p_leaf_height = 0.2f;  // 树叶高度
+    public static float p_leaf_tawidth = 0.7f;  // 树叶宽度
     public static float p_leaf_horBend_Ang = 0f;  // 树叶水平卷曲弯度
     public static float p_leaf_verBend_Ang = 0f;  // 树叶竖直卷曲弯度
     // 花朵相关
